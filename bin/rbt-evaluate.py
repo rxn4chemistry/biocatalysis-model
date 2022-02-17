@@ -181,7 +181,7 @@ def main(
     top_n_range: bool,
     isomeric_smiles: bool,
 ):
-    """The main function to evaluate greencatrxn data."""
+    """The main function to evaluate biocatalysis model data."""
 
     #
     # Load the data supplied by options

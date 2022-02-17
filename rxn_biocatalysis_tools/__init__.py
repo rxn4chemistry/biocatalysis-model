@@ -7,5 +7,5 @@ from .tokenizer import (
 )
 from .utils import disable_rdkit_logging
 
-__name__ = "green-cat-rxn"
-__version__ = "0.0.1"
+__name__ = "rxn-biocatalysis-tools"
+__version__ = "1.0.1"
