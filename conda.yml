@@ -1,0 +1,11 @@
+name: rxn-biocatalysis-tools
+channels:
+  - https://conda.anaconda.org/rdkit
+dependencies:
+  - rdkit=2018.03.4
+  - python>=3.6,<3.8
+  - pip>=19.1
+  - Cython
+  - pip:
+    - -r requirements.txt
+    - -e .

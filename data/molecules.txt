@@ -1,0 +1,12 @@
+//
+// Common byproducts to be removed form the enzymatic reactions
+//
+O=P([O-])([O-])[O-] // Phosphate trianion
+O=P([O-])([O-])O // Hydrogen phosphate dianion
+C[N+](C)(C)CCO // (2-hydroxyethyl)trimethylammonium
+NCCO // Ethanolamine
+O=P([O-])([O-])OP(=O)([O-])[O-] // Diphosphate
+O=P([O-])([O-])OP(=O)([O-])O // Hydrogen diphosphate trianion
+O=C([O-])CCC(=O)C(=O)[O-] // 2-Oxoglutarate dianion
+CC(=O)[O-] // Acetate ion
+CC(=O)C(=O)[O-] // Pyruvate

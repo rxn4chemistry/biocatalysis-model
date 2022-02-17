@@ -1,0 +1,1 @@
+-c rdkit rdkit=2018.03.4
