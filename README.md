@@ -97,7 +97,7 @@ conda activate rxn-biocatalysis-tools
 Alternatively, :leaves: RXN Biocatalysis Tools are available as a PyPI package and can be installed usining pip; however, not all dependencies will be installed depending on your platform.
 
 ```bash
-pip install rxn_biocatalysis_tools
+pip install rxn-biocatalysis-tools
 ```
 
 ### Data Pre-processing
