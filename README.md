@@ -1,6 +1,25 @@
 # :leaves: Biocatalysis Model
 
-*Biocatalysed Synthesis Planning using Data-driven Learning*
+Open Access article on Nature Communications: [Biocatalysed Synthesis Planning using Data-driven Learning](https://rdcu.be/cHvk3)
+
+> Probst, D., Manica, M., Nana Teukam, Y.G. et al. Biocatalysed synthesis planning using data-driven learning. Nat Commun 13, 964 (2022). https://doi.org/10.1038/s41467-022-28536-w
+
+```
+@article{probst2022biosynthplan, 
+year = {2022}, 
+title = {{Biocatalysed synthesis planning using data-driven learning}}, 
+author = {
+  Probst, Daniel and Manica, Matteo and Teukam, Yves Gaetan Nana and Castrogiovanni, 
+  Alessandro and Paratore, Federico and Laino, Teodoro
+}, 
+journal = {Nature Communications}, 
+doi = {10.1038/s41467-022-28536-w}, 
+pmid = {35181654}, 
+pages = {964}, 
+number = {1}, 
+volume = {13},
+}
+```
 
 ## Table of Contents
 
