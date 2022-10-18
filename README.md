@@ -79,6 +79,7 @@ The contributions by EC class from each of the data sources is shown in the plot
 We provide a model for retrosynthetic pathway prediction pre-trained on ECREACT as part of the [IBM RXN for Chemistry](https://rxn.res.ibm.com/) platform. This model can also be used through the [Python wrapper](https://github.com/rxn4chemistry/rxn4chemistry) for the IBM RXN for Chemistry API. You can get a free API key [here](https://rxn.res.ibm.com/rxn/user/profile).
 
 ```python
+import time  # adding some sleeps to satisfy RXN API reate limits.
 api_key = 'API_KEY'
 from rxn4chemistry import RXN4ChemistryWrapper
 
@@ -87,11 +88,13 @@ rxn4chemistry_wrapper = RXN4ChemistryWrapper(api_key=api_key)
 # NOTE: you can create a project or set an esiting one using:
 # rxn4chemistry_wrapper.set_project('PROJECT_ID')
 rxn4chemistry_wrapper.create_project('test_wrapper')
+time.sleep(2)
 print(rxn4chemistry_wrapper.project_id)
 
 response = rxn4chemistry_wrapper.predict_automatic_retrosynthesis(
     'OC1C(O)C=C(Br)C=C1', ai_model='enzymatic-2021-04-16'
 )
+time.sleep(30)  # retros on average takes 2 minutes so here a sleep of 30 seconds is reasonable
 results = rxn4chemistry_wrapper.get_predict_automatic_retrosynthesis_results(
     response['prediction_id']
 )
